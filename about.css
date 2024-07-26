@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main{
+    width: 100%;
+    background: url(Slider/pic/bg.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    
+    
+
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: 0;
+    padding-top: 100px;
+    
+    
+}
+.content-section{
+    float: left;
+    width: 60%;
+    
+    
+
+}
+.image-section{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    
+}
+.image-section img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+    
+}
+
+ 
+.image-section:hover .img{
+    left: 55%;
+
+}
+     
+ 
+ 
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+.content-section .content h1{
+    margin-top: 40px;
+    color: #5d5d5d;
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+
+.content-section .content p{
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+.content-section .button a{
+    
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+    
+
+}
+.content-section .button a:hover{
+    background: rgb(59,174,209);
+
+}
+
+.content-section .button{
+    
+    margin-left: 40%;
+    margin-top: 6%;
+}
+content-section .button2 a{
+    
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+    
+
+}
+.content-section .button2 a:hover{
+    background: rgb(59,174,209);
+
+}
+
+.content-section .button2{
+    
+    margin-left: 40%;
+    margin-top: 6%;
+}
+
+
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 210px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+
+ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.icons a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 7%;
+    margin-top: 40%
+
+}
+.icons ion-icon{
+    
+    color: #000;
+    font-size: 40px;
+    
+
+    transition: .4s ease;
+
+}
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px
+        
+       
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+
+        
+        
+        
+    
+    }
+    
+
+
+}
